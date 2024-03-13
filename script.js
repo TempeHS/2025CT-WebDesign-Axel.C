@@ -1,6 +1,6 @@
 let enterName = prompt("Enter your name");
 let playerGuess;
-let computerGuess = randomNum();
+//let computerGuess = randomNum();
 let playerFeedback = computerGuess;
 loadDIV();
 
