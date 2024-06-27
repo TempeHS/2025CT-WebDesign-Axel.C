@@ -30,14 +30,30 @@
         }
 
         .caption {
-            position: absolute
+            position: absolute;
+            text-align: center;
+            top: 95%;
+            width: 100%;
+            color: White;
+            border-color: transparent;
         }
 
-        .caption span.border {
-            letter-spacing: ;
-            padding: ;
+        .MainPageHeading {
+            letter-spacing: 10px;
+            padding: 18px;
             background-color: transparent;
-            color: ;
+            color: white;
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+
+        .MainPageSubHeading {
+            text-align: center;
+        }
+
+        .line {
+            color: white;
         }
     </style>
     <!--END STYLE-->
@@ -48,8 +64,8 @@
     <!--START NAVBAR-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" aria-current="page" href="index.html"><img src="images/GeneralImages/Logo.png"
-                    alt="" class="NavbarLogo">Home</a>
+            <a class="navbar-brand" aria-current="page" href="#"><img src="images/GeneralImages/Logo.png" alt=""
+                    class="NavbarLogo">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -83,15 +99,16 @@
     <!--BACKGROUND-->
     <div class="parallax">
         <div class="caption">
-            <span class="border">SCROLL DOWN</span>
+            <h3 class="MainPageHeading">What is Conservatoria?</h3>
         </div>
+        <div class="Line"></div>
     </div>
     <!--BACKGROUND-->
 
 
     <!--START WRITING-->
     <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-        <h3 style="text-align:center;">Parallax Demo</h3>
+        <h3 class="MainPageSubHeading">Parallax Demo</h3>
         <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the
             foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed
             posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit
