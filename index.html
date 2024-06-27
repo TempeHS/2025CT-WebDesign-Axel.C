@@ -15,15 +15,20 @@
         }
 
         .parallax {
-            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
-            min-height: 1080px;
+            position: relative;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+
         }
 
-        @media only screen and (max-device-width: 1366px) {
+        .parallax {
+            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
+            min-height: 1080px;
+        }
+
+        @media only screen and (max-device-width: 1024px) {
             .parallax {
                 background-attachment: scroll;
             }
@@ -32,7 +37,7 @@
         .caption {
             position: absolute;
             text-align: center;
-            top: 95%;
+            top: 80%;
             width: 100%;
             color: White;
             border-color: transparent;
@@ -43,7 +48,7 @@
             padding: 18px;
             background-color: transparent;
             color: white;
-            font-size: 70px;
+            font-size: 65px;
             font-family: 'Times New Roman', Times, serif;
             font-weight: bolder;
         }
@@ -108,7 +113,7 @@
 
     <!--START WRITING-->
     <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-        <h3 class="MainPageSubHeading">Parallax Demo</h3>
+        <h3 class="MainPageSubHeading">The beginnings</h3>
         <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the
             foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed
             posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit
@@ -124,7 +129,6 @@
             porttitor
             placerat leo.</p>
     </div>
-
 
     <!--END WRITING-->
 
