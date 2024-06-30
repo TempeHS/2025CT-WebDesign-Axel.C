@@ -1,0 +1,106 @@
+        .NavbarLogo {
+            height: 50px;
+        }
+
+        .parallax, .parallaxFSOC {
+            position: relative;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .parallax {
+            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
+            min-height: 1080px;
+        }
+
+        .parallaxFSOC {
+            background-image: url("images/SliderImages/ConservatoriaMap.png");
+            min-height: 1080px;
+        }
+
+        @media only screen and (max-device-width: 1024px) {
+            .parallax, .parallaxFSOC  {
+                background-attachment: scroll;
+            }
+        }
+
+        .caption {
+            left: 0%;
+            position: absolute;
+            text-align: center;
+            top: 70%;
+            width: 100%;
+            color: White;
+            border-color: transparent;
+            max-height: 100px;
+        }
+
+        .MainPageHeading {
+            letter-spacing: 10px;
+            padding: 18px;
+            background-color: transparent;
+            color: white;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .MainPageSubHeading {
+            text-align: center;
+        }
+
+        .Line {
+            height: 500px;
+        }
+
+        .captionFSOC {
+            left: 0%;
+            position: absolute;
+            text-align: left;
+            top: 42%;
+            width: 100%;
+            color: White;
+            border-color: transparent;
+            max-height: 400px;
+        }
+
+        .FiveStatesPageHeading {
+            letter-spacing: 10px;
+            padding: 18px;
+            background-color: transparent;
+            color: white;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            max-width: 300px;
+        }
+
+        .contentFSOC {
+            color: white;
+            padding:2px 80px;
+            background-color: #E48D8D;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        .WestRedneckSubheading {
+            text-align: center;
+        }
+
+        .p1FSOC {
+            font-size: 30px;
+        }
+
+        .contentWIC {
+            color: white;
+            padding: 50px 80px;
+            background-color: #E48D8D;
+            text-align: center;
+            border: 2px solid black;
+        }
