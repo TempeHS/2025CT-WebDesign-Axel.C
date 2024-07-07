@@ -55,6 +55,14 @@
             text-align: center;
         }
 
+        .contentWIC {
+            color: white;
+            padding: 50px 80px;
+            background-color: #E48D8D;
+            text-align: center;
+            border: 2px solid black;
+        }
+
         .Line {
             height: 500px;
         }
@@ -97,10 +105,19 @@
             font-size: 20px;
         }
 
-        .contentWIC {
-            color: white;
-            padding: 50px 80px;
-            background-color: #E48D8D;
+
+        .SigmanincelSubHeading {
             text-align: center;
-            border: 2px solid black;
+        }
+
+        .p2FSOC {
+            font-size: 20px;
+        }
+
+        .BrethrenSubHeading {
+            text-align: center;
+        }
+
+        .p3FSOC {
+            font-size: 20px;
         }
