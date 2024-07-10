@@ -2,7 +2,7 @@
             height: 50px;
         }
 
-        .parallax, .parallaxFSOC {
+        .parallax, .parallaxFSOC, .parallaxJODF, .parallaxEF, .parallaxVC, .parallaxOTPS {
             position: relative;
             background-attachment: fixed;
             background-position: center;
@@ -21,8 +21,28 @@
             min-height: 1080px;
         }
 
+        .parallaxVC {    
+            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
+            min-height: 1080px;
+        }
+
+        .parallaxOTPS {
+            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
+            min-height: 1080px;
+        }
+
+        .parallaxEF {
+            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
+            min-height: 1080px;
+        }
+
+        .parallaxJODF {
+            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
+            min-height: 1080px;
+        }
+
         @media only screen and (max-device-width: 1024px) {
-            .parallax, .parallaxFSOC  {
+            .parallax, .parallaxFSOC, .parallaxEF, .parallaxVC, .parallaxOTPS, .parallaxJODF  {
                 background-attachment: scroll;
             }
         }
@@ -36,6 +56,61 @@
             color: White;
             border-color: transparent;
             max-height: 100px;
+        }
+
+        .captionOTPS {
+            left: 0%;
+            position: absolute;
+            text-align: center;
+            top: 70%;
+            width: 100%;
+            color: White;
+            border-color: transparent;
+            max-height: 100px;
+        }
+
+        .captionEF {
+            left: 0%;
+            position: absolute;
+            text-align: center;
+            top: 70%;
+            width: 100%;
+            color: White;
+            border-color: transparent;
+            max-height: 100px;
+        }
+
+        .captionVC {
+            left: 0%;
+            position: absolute;
+            text-align: center;
+            top: 70%;
+            width: 100%;
+            color: White;
+            border-color: transparent;
+            max-height: 100px;
+        }
+
+        .captionJODF {
+            left: 0%;
+            position: absolute;
+            text-align: center;
+            top: 70%;
+            width: 100%;
+            color: White;
+            border-color: transparent;
+            max-height: 100px;
+        }
+
+        .captionFSOC {
+            left: 0%;
+            position: absolute;
+            text-align: left;
+            top: 42%;
+            width: 100%;
+            color: White;
+            border-color: transparent;
+            max-height: 400px;
         }
 
         .MainPageHeading {
@@ -65,17 +140,6 @@
 
         .Line {
             height: 500px;
-        }
-
-        .captionFSOC {
-            left: 0%;
-            position: absolute;
-            text-align: left;
-            top: 42%;
-            width: 100%;
-            color: White;
-            border-color: transparent;
-            max-height: 400px;
         }
 
         .FiveStatesPageHeading {
@@ -120,4 +184,37 @@
 
         .p3FSOC {
             font-size: 20px;
+        }
+        
+
+        .contentVC {
+            color: white;
+            padding: 50px 80px;
+            background-color: #E48D8D;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        .contentOTPS {
+            color: white;
+            padding: 50px 80px;
+            background-color: #E48D8D;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        .contentEF {
+            color: white;
+            padding: 50px 80px;
+            background-color: #E48D8D;
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        .contentJODF {
+            color: white;
+            padding: 50px 80px;
+            background-color: #E48D8D;
+            text-align: center;
+            border: 2px solid black;
         }
