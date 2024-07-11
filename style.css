@@ -126,6 +126,58 @@
             margin-right: auto;
         }
 
+        .headingEF {
+            letter-spacing: 10px;
+            padding: 18px;
+            background-color: transparent;
+            color: white;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .headingJODF {
+            letter-spacing: 10px;
+            padding: 18px;
+            background-color: transparent;
+            color: white;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .headingOTPS {
+            letter-spacing: 10px;
+            padding: 18px;
+            background-color: transparent;
+            color: white;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .headingVC {
+            letter-spacing: 10px;
+            padding: 18px;
+            background-color: transparent;
+            color: white;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         .MainPageSubHeading {
             text-align: center;
         }
@@ -142,7 +194,7 @@
             height: 500px;
         }
 
-        .FiveStatesPageHeading {
+        .headingFSOC {
             letter-spacing: 10px;
             padding: 18px;
             background-color: transparent;
