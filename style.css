@@ -31,20 +31,26 @@
             min-height: 1080px;
         }
 
-        .parallaxEF {
-            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
-            min-height: 1080px;
-        }
-
         .parallaxJODF {
             background-image: url("images/PageMainImages/WhatIsConservatoria.png");
             min-height: 1080px;
         }
 
         @media only screen and (max-device-width: 1024px) {
-            .parallax, .parallaxFSOC, .parallaxEF, .parallaxVC, .parallaxOTPS, .parallaxJODF  {
+            .parallax, .parallaxFSOC, .parallaxVC, .parallaxOTPS, .parallaxJODF  {
                 background-attachment: scroll;
             }
+        }
+
+        .parallaxEF {
+            height: 1080px;   
+        }
+
+        .parallaxEF video {
+            min-height: 100%;
+            position: fixed;
+            top: 0%;
+            z-index: -999;
         }
 
         .caption {
