@@ -22,7 +22,7 @@
         }
 
         .parallaxVC {    
-            background-image: url("images/PageMainImages/WhatIsConservatoria.png");
+            background-image: url("images/SliderImages/HappyFamily.png");
             min-height: 1080px;
         }
 
@@ -227,6 +227,18 @@
             border: 2px solid black;
         }
 
+        .MainSubHeadingFSOC {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+
+        .MainSubHeadingFSOC2 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+
         .WestRedneckSubheading {
             text-align: center;
         }
@@ -251,7 +263,28 @@
         .p3FSOC {
             font-size: 20px;
         }
-        
+
+        .HustletownSubHeading {
+            text-align: center;
+        }
+
+        .p4FSOC {
+            font-size: 20px;
+        }
+
+        .conservatoriaCCSubHeading {
+            text-align: center;
+        }
+
+        .p5FSOC {
+            font-size: 20px;
+        }
+
+        .pmainFSOC {
+            font-size: 30px;
+        }
+
+
 
         .contentVC {
             color: white;
