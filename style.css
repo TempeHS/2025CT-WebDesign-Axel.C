@@ -57,6 +57,7 @@
             position: fixed;
             top: 0%;
             z-index: -999;
+            background-color: black;
         }
 
         .caption {
@@ -290,6 +291,17 @@
             font-size: 22px;
         }
 
+        .MainSubHeadingEF {
+            text-align: center;
+        }
+
+        .MainSubHeadingEF2 {
+            text-align: center;
+        }
+
+        .MainSubHeadingEF3 {
+            text-align: center;
+        }
 
 
         .contentVC {
